@@ -27,23 +27,74 @@
 ```
 
 #### Ввод фамилии
-![GitHub Logo](/images/JS1_1_1.png)
+![image](/images/JS1_1_1.png)
 
 #### Ввод имени
-/images/JS1_1_2.png
+![image](/images/JS1_1_2.png)
 
 #### Ввод отчества
-/images/JS1_1_3.png
+![image](/images/JS1_1_3.png)
 
 #### Подтверждение правильности введенного ФИО
-/images/JS1_1_4.png
+![image](/images/JS1_1_4.png)
 
 #### Окно при введении неверной информации 
-/images/JS1_1_5.png
+![image](/images/JS1_1_5.png)
 
 #### Окно при введении верной информации 
-/images/JS1_1_6.png
+![image](/images/JS1_1_6.png)
 
 ## Задание 2
 Введите время в часах и минутах. Определите время, которое будет через минуту. Используйте вложенные операторы IF. Возможны три случая.
+
 ## Задание 3
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+    <style>
+        td.cell {width: 15px; height: 15px}
+    </style>
+<body>
+    Квадрат 1
+    <script>
+        var side = 10
+        document.write("<table>")
+        for (let i = 0; i < side; i++) {
+            document.write("<tr>")
+            for (let k = 0; k <= i; k++) {
+                document.write("<td class='cell' style='background: red'></td>")
+            }
+            for (let k = side - 1; k >= i + 1; k--) {
+                document.write("<td class='cell' style='background: black'></td>")
+            }
+            document.write("</tr>")
+        }
+        document.write("</table>")
+
+    </script>
+    <br>Квадрат 2
+    <script>
+        var side = 10
+        document.write("<table>")
+        for (let i = 0; i < side; i++) {
+            document.write("<tr>")
+            for (let k = 0; k < side; k ++) {
+                str = (i+k)%3
+                if (str === 0 || str === 2) {
+                    document.write("<td class='cell' style='background: purple'></td>")
+                } else {
+                    document.write("<td class='cell' style='background: silver'></td>")
+                }
+            }
+            document.write("</tr>")
+        }
+        document.write("</table>")
+
+    </script>
+</body>    
+</html>
+```
+![image](/images/JS1_3_1.png)
