@@ -1,7 +1,7 @@
 # JavaScript. Контрольное задание №1
 ## Задание 1
 Введите свою фамилию, имя и отчество. Запросите подтверждение. Если все верно, то вывести приветствие, если нет, вывести сообщение об ошибке.
-### Выполнение работы
+### Выполнение задания
 #### Скрипт программы
 ``` html
 <!DOCTYPE html>
@@ -46,8 +46,51 @@
 
 ## Задание 2
 Введите время в часах и минутах. Определите время, которое будет через минуту. Используйте вложенные операторы IF. Возможны три случая.
+### Выполнение задания
+#### Скрипт программы
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <script>
+        hours = parseInt(prompt("Введите количество часов:","0"));
+        minutes = parseInt(prompt("Введите количество минут:","0"));
+        
+        if (minutes < 59) {
+            minutes += 1; 
+        } else if (minutes == 59 && hours == 23) {
+            hours = 0;
+            minutes = 00;
+        } else {
+            hours += 1;
+            minutes = 00;
+        }
+    
+        alert("Через минуту время будет " + hours + ":" + minutes);
+    </script>
+</body>
+</html>
+```
+#### Случай 1
+![image](/images/JS1_2_1.png)
+![image](/images/JS1_2_2.png)
+![image](/images/JS1_2_3.png)
+#### Случай 2
+![image](/images/JS1_2_4.png)
+![image](/images/JS1_2_5.png)
+![image](/images/JS1_2_6.png)
+#### Случай 3
+![image](/images/JS1_2_7.png)
+![image](/images/JS1_2_8.png)
+![image](/images/JS1_2_9.png)
+
 
 ## Задание 3
+### Выполнение задания
+#### Скрипт программы
 ```html
 <!DOCTYPE html>
 <html>
@@ -97,4 +140,5 @@
 </body>    
 </html>
 ```
+#### Результат выполнения скрипта
 ![image](/images/JS1_3_1.png)

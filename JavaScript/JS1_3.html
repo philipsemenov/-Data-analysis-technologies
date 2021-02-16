@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+    <style>
+        td.cell {width: 15px; height: 15px}
+    </style>
+<body>
+    Квадрат 1
+    <script>
+        var side = 10
+        document.write("<table>")
+        for (let i = 0; i < side; i++) {
+            document.write("<tr>")
+            for (let k = 0; k <= i; k++) {
+                document.write("<td class='cell' style='background: red'></td>")
+            }
+            for (let k = side - 1; k >= i + 1; k--) {
+                document.write("<td class='cell' style='background: black'></td>")
+            }
+            document.write("</tr>")
+        }
+        document.write("</table>")
+
+    </script>
+    <br>Квадрат 2
+    <script>
+        var side = 10
+        document.write("<table>")
+        for (let i = 0; i < side; i++) {
+            document.write("<tr>")
+            for (let k = 0; k < side; k ++) {
+                str = (i+k)%3
+                if (str === 0 || str === 2) {
+                    document.write("<td class='cell' style='background: purple'></td>")
+                } else {
+                    document.write("<td class='cell' style='background: silver'></td>")
+                }
+            }
+            document.write("</tr>")
+        }
+        document.write("</table>")
+
+    </script>
+</body>    
+</html>
