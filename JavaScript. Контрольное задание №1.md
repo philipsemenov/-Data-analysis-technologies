@@ -27,7 +27,7 @@
 ```
 
 #### Ввод фамилии
-/images/JS1_1_1.png
+![GitHub Logo](/images/JS1_1_1.png)
 
 #### Ввод имени
 /images/JS1_1_2.png
