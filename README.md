@@ -2,11 +2,11 @@
 ## JavaScript
 - [x] [Контрольное задание №1](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/js1.md)
 
-- [x] [Контрольное задание №3](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/js3.md)
+- [] [Контрольное задание №3](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/js3.md)
 
 - [ ] [Контрольное задание №4](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/js4.md)
 
-- [ ] [Контрольное задание №5](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/js5.md)
+- [-] [Контрольное задание №5](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/js5.md)
 
 - [ ] [Контрольное задание №6]()
 
