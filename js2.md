@@ -78,5 +78,35 @@
 Ввести длину и ширину прямоугольника в поля формы и определить площадь этого прямоугольника. Площадь должна вычисляться по нажатию кнопки.
 ### Выполнение задания
 #### Скрипт программы
+``` html
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8" />
+    <script>
+        function sqr(){
+            var l = document.getElementById('length');
+            var w = document.getElementById('width');
+            var size = l.value * w.value;
+            
+            alert("Площадь прямоугольника: " + size)
+        }
+    </script>
+</head>
+<body>
+    Вычисление площади прямоугольника
+    <form>
+        Длина:
+        <input type=text value="" id='length' size="5">
+        Ширина:
+        <input type=text value="" id='width' size="5">
+        <input type=button value="Площадь" OnClick="sqr()">
+        <hr>
+</form>
+
+</body>
+</html>
+```
+
 ![image](/images/JS2_3_1.png)
 ![image](/images/JS2_3_2.png)
