@@ -6,7 +6,7 @@
 
 - [ ] [Контрольное задание №4](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/js4.md)
 
-- [ ] [Контрольное задание №5]()
+- [ ] [Контрольное задание №5](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/js5.md)
 
 - [ ] [Контрольное задание №6]()
 
