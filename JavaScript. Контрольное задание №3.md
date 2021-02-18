@@ -23,13 +23,13 @@
         function bio(){
             var family_name = document.getElementById('family_name').value;
             var name = document.getElementById('name').value;
-            var family_name = document.getElementById('family_name').value;
+            var fathers_name = document.getElementById('fathers_name').value;
             var year = document.getElementById('year').value;
             var place = document.getElementById('place').value;
             var hobby = document.getElementById('hobby').value;
             var not_hobby = document.getElementById('not_hobby').value;
             
-            var header="<h1>О себе</h1><hr> <p>Я, " + family_name + " " + name + " " + family_name + " родился в " + year + " году в городе " + place + "</p>";
+            var header="<h1>О себе</h1><hr> <p>Я, " + family_name + " " + name + " " + fathers_name + " родился в " + year + " году в городе " + place + "</p>";
             var hobby="<p>Больше всего я люблю " + hobby + " и очень не люблю " + not_hobby + ".<br> Было бы замечательно, всю жизнь только " + hobby + ", но к сожалению приходиться иногда и " + not_hobby + ".</p>";
             var win=window.open("","","width=400,height=500");
             var close ='<input type="button" value="закрыть"'+'onClick="window.close();">';
@@ -48,7 +48,7 @@
         <form class="form_style">
             <p> <label>Фамилия: </label><input type=text id='family_name' size="30"></p>
             <p><label>Имя: </label> <input type=text id='name' size="30"></p>
-            <p><label>Отчество: </label> <input type=text  id='family_name' size="30"></p>
+            <p><label>Отчество: </label> <input type=text  id='fathers_name' size="30"></p>
             <p><label>Год рождения: </label> <input type=text  id='year' size="30"></p>
             <p><label>Место рождения: </label><input type=text  id='place' size="30"></p>
             <p><label>Любимое занятие: </label> <input type=text  id='hobby' size="30"></p>
