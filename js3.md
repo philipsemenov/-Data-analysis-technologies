@@ -1,7 +1,7 @@
 > # Семенов Ф.С.
 > ## ИСТ-822
 
-# JavaScript. Контрольное задание №2
+# JavaScript. Контрольное задание №3
 ## Задание 1
 Создать HTML-страницу, которая при загрузке запрашивает дату вашего рождения и выводит на страницу день недели, число, месяц и год этой даты. Для месяцев и дней недели организовать массивы.
 ### Выполнение задания
@@ -15,16 +15,12 @@
 <body>
     <h2>
         <script>
-            var months_list=new Array('января', 'февраля', 'марта',
-                                'апреля', 'мая', 'июня',
-                                'июля', 'августа', 'сентября',
-                                'октября', 'ноября', 'декабря')
-            var days_list=new Array('понедельник', 'вторник', 'среду',
-                               'четверг','пятницу','субботу','воскресенье')
+            var months_list = new Array('января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября','октября', 'ноября', 'декабря')
+            var days_list=new Array('понедельник', 'вторник', 'среду', 'четверг','пятницу','субботу','воскресенье')
         
-            var user_year=prompt("Введите год вашего рождения");
-            var user_month=prompt("Ведите номер месяца вашего рождения");
-            var user_day=prompt("Ведите день вашего рождения");
+            var user_year = prompt("Введите год вашего рождения");
+            var user_month = prompt("Ведите номер месяца вашего рождения");
+            var user_day = prompt("Ведите день вашего рождения");
             user_date=new Date(user_year, user_month, user_day).getDay()
             document.write("Я родилися " + user_day + " " + months_list[user_month - 1] + " " + user_year + " года, " + days_list[user_date - 1]);
         </script>
@@ -49,16 +45,7 @@
     <meta charset="utf-8" />
     <script>
         function get_date(){
-            var today = new Date();
-            var year = today.getFullYear();
-            var month = today.getMonth();
-            var day = today.getDate();
-            var holidays_start = new Date(2021,6,27);
-            var days_counter = holidays_start.getTime() - today.getTime();
-            days_counter = days_counter/86400000 +1;
-            days_counter = days_counter;
-            final_result=document.getElementById('insert_date');
-            final_result.value=Math.floor(days_counter);
+            document.getElementById('insert_date').value=Math.floor((new Date(2021,6,27).getTime() - new Date().getTime())/86400000 + 1);
         }
     </script>
 </head>
