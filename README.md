@@ -1,6 +1,6 @@
 # Технологии анализа данныx
 ## JavaScript
-[Контрольное задание №1](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/js1.md)
+[][Контрольное задание №1](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/js1.md)
 
 [Контрольное задание №3](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/js3.md)
 
