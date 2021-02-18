@@ -32,7 +32,7 @@
 </body>
 </html>
 ```
-
+#### Изображения
 ![image](/images/JS2_1_1.png)
 ![image](/images/JS2_1_2.png)
 ![image](/images/JS2_1_3.png)
@@ -71,7 +71,7 @@
     </body>
 </html>
 ```
-
+#### Изображения
 ![image](/images/JS2_2_1.png)
 
 ## Задание 3
@@ -107,6 +107,6 @@
 </body>
 </html>
 ```
-
+#### Изображения
 ![image](/images/JS2_3_1.png)
 ![image](/images/JS2_3_2.png)
