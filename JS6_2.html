@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {background-color: antiquewhite; color:cornflowerblue;}
+        img {width: auto; height: 200px;}
+    </style>
+</head>
+<body>
+    <h1> Слайд шоу зверей </h1>
+    <img id='animal' src="coala.jpg"/><br>
+    <input type="button" value="Следующее животное" onClick="animal_show()">
+    <script>
+    var n = 0;
+    function animal_show() {
+        pictures = new Array("leo.jpg", "pig.jpg", "coala.jpg");
+        if (n >= 3)
+            n = 0;
+        picture = document.getElementById('animal')
+        picture.src = pictures[n];
+        n++;
+    }
+  </script>
+</body>
+</html>
