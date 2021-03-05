@@ -8,9 +8,9 @@
 
 - [x] [Контрольное задание №5](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/js5.md)
 
-- [ ] [Контрольное задание №6](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/js6.md)
+- [x] [Контрольное задание №6](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/js6.md)
 
-- [ ] [Контрольное задание №7](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/js7.md)
+- [x] [Контрольное задание №7](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/js7.md)
 ## PHP
 - [ ] [Контрольное задание №1]()
 
