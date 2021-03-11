@@ -1,0 +1,11 @@
+# R. Контрольное задание №1
+## Задание 5
+Используя фрейм diamonds, определите 100 самых больших алмазов,
+с указанием их цены (price), величины (carat) и размеров по трем измерениям (x, y, z).
+### Код задания:
+```R
+library('ggplot2')
+diamonds_df = data.frame(diamonds)
+z = diamonds_df[order(diamonds_df$carat,decreasing=TRUE),][1:100,c("carat","price","x","y","z")]
+```
+![image](/images/R_1.png)
