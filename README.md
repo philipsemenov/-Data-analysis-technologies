@@ -20,7 +20,7 @@
 
 - [ ] [Контрольное задание №4]()
 ## R
-- [ ] [Контрольное задание №1]()
+- [ ] [Контрольное задание №1](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/r1.md)
 
 - [ ] [Контрольное задание №2]()
 
