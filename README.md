@@ -22,6 +22,6 @@
 ## R
 - [ ] [Контрольное задание №1](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/r1.md)
 
-- [ ] [Контрольное задание №2]()
+- [ ] !!! [Контрольное задание №2](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/r2.md)
 
-- [ ] [Контрольное задание №3]()
+- [ ] !!! [Контрольное задание №3](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/r3.md)
