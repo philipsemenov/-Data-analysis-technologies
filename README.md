@@ -11,7 +11,7 @@
 - [x] [Контрольное задание №6](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/js6.md)
 
 - [x] [Контрольное задание №7](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/js7.md)
-## PHP
+## 🔜 PHP
 - [ ] [Контрольное задание №1](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/php1.md)
 
 - [ ] [Контрольное задание №2](https://github.com/philippsemenov/-Data-analysis-technologies/blob/main/php2.md)
