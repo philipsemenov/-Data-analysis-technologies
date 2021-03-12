@@ -55,4 +55,4 @@ noembed
 plaintext
 отображает содержимое контейнера «как есть», любые теги выводятся как текст.
 ```
-![image](/images/PHP_3_1.png)
+![image](/images/PHP3_1.png)
